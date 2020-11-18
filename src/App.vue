@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app dark color="blue-grey darken-1">
+    <v-app-bar app dark color="blue-grey darken-4">
       <v-toolbar-title>ToDo App</v-toolbar-title>
       <v-spacer />
       <v-toolbar-items>
@@ -16,7 +16,7 @@
     </v-app-bar>
 
     <!-- Sizes your content based upon application components -->
-    <v-main>
+    <v-main class="blue-grey darken-2">
       <!-- Provides the application the proper gutter -->
       <v-container fluid>
         <!-- If using vue-router -->
@@ -24,7 +24,7 @@
       </v-container>
     </v-main>
 
-    <v-footer app>
+    <v-footer app class="blue-grey darken-2">
       <!-- -->
     </v-footer>
   </v-app>
